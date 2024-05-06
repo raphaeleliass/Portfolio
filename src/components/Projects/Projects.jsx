@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="m-auto flex max-w-xs flex-col gap-24 py-12 md:max-w-3xl md:py-20 lg:max-w-5xl">
       <div className="flex items-center justify-between">
-        <h2 className="text-4xl font-bold md:text-7xl">Projects</h2>
+        <h2 className="text-4xl font-bold md:text-7xl">Projetos</h2>
         <Buttons title="Entrar em contato" href="#contato" />
       </div>
       <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2">
@@ -31,7 +31,7 @@ function Projects() {
           imgCard={FyloPage}
           titleCard="Fylo Landing Page"
           descriptionCard="HTML CSS"
-          hrefWebsite="https://raphaelelias-fylo.vercel.app"
+          hrefWebsite="https://raphaelelias-fylo-landingpage.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/fylo-landing-page"
         />
         <ProjectCards

@@ -11,7 +11,7 @@ function Contact() {
           <h2 className="text-5xl font-medium lg:py-6">Contato</h2>
           <p className="text-sm text-customGrey lg:mr-32">
             Eu adoraria ouvir sobre seus projetos e como eu poderia ajudar
-            neles. Para isso, entre em contato para discutirmos sobre isso e eu
+            neles. Para isso, entre em contato para discutirmos suas ideias e eu
             responderei o mais breve possível!
           </p>
         </div>

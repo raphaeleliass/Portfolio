@@ -10,8 +10,16 @@ function ProjectCards(props) {
           {props.descriptionCard}
         </p>
         <div className="flex items-center  gap-4">
-          <Buttons title='Ver Website' href={props.hrefWebsite} />
-          <Buttons title='Repositório Github' href={props.hrefRepository}/>
+          <Buttons
+            title="Ver Website"
+            href={props.hrefWebsite}
+            target="_blank"
+          />
+          <Buttons
+            title="Repositório Github"
+            href={props.hrefRepository}
+            target="_blank"
+          />
         </div>
       </div>
     </div>
