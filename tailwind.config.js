@@ -14,7 +14,7 @@ export default {
         Poppins: ["Poppins", "Arial", "Sans-Serif"],
       },
       backgroundImage: {
-        hero: 'url("./public/raphael-elias.webp")',
+        hero: 'url("/raphael-elias.webp")',
       },
     },
   },
