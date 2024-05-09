@@ -28,8 +28,7 @@ function Contact() {
           <a href="#header">
             <strong>Raphael Elias</strong>
           </a>
-          &nbsp;
-          2024 &copy;
+          &nbsp; 2024 &copy;
         </h2>
       </div>
     </footer>

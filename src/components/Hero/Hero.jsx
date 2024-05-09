@@ -9,7 +9,7 @@ function Hero() {
     >
       <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-0">
         <section className="flex flex-col items-center gap-12 text-center md:w-[600px] md:items-start md:text-start lg:w-[700px] lg:gap-16 ">
-          <div className="z-10 font-medium md:absolute">
+          <div className="absolute top-[440px] z-10 font-medium md:top-36">
             <h2 className="text-3xl md:text-5xl lg:text-6xl">Muito prazer!</h2>
             <h2 className="text-3xl md:text-5xl lg:text-6xl">
               Eu sou&nbsp;
@@ -40,8 +40,9 @@ function Hero() {
             <Buttons title="CONTATO" href="#contato" />
           </div>
         </section>
+        <div className="absolute z-40 hidden size-16 rounded-full border border-customWhite md:bottom-[500px] md:right-[370px] md:block lg:bottom-44 lg:right-[570px]"></div>
         <section className="flex justify-center md:relative md:-mt-40 lg:-mr-6 ">
-          <div className="h-[350px] w-[200px] bg-customDarkGrey bg-hero bg-cover bg-center md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px]"></div>
+          <div className="h-[350px] w-[200px] rounded-md bg-customDarkGrey bg-hero bg-cover bg-center md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px]"></div>
         </section>
       </div>
     </div>
