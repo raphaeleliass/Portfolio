@@ -1,4 +1,4 @@
-import linkedinIcon from "/linkedin-original.svg";
+import { ImLinkedin } from "react-icons/im";
 
 function LinkedinIcon() {
   return (
@@ -8,7 +8,7 @@ function LinkedinIcon() {
       rel="noreferrer"
       className="block p-1 "
     >
-      <img className="size-6 hover:size-7 transition-all" src={linkedinIcon} alt="Linkedin contact Icon" />
+      <ImLinkedin className="size-6 hover:text-customGreen transition-all"/>
     </a>
   );
 }

@@ -1,4 +1,4 @@
-import githubIcon from "/github-icon.svg";
+import { ImGithub } from "react-icons/im";
 
 function GithubIcon() {
   return (
@@ -8,7 +8,7 @@ function GithubIcon() {
       rel="noreferrer"
       className="block p-1"
     >
-      <img className="size-6 hover:size-7 transition-all" src={githubIcon} alt="Github contact icon" />
+      <ImGithub className="size-6 hover:text-customGreen transition-all"/>
     </a>
   );
 }

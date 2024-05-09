@@ -1,4 +1,6 @@
-import emailIcon from "/email.svg";
+import { ImMail } from "react-icons/im";
+
+
 
 function EmailIcon() {
   return (
@@ -8,7 +10,7 @@ function EmailIcon() {
       rel="noreferrer"
       className="block p-1"
     >
-      <img className="size-6 hover:size-7 transition-all" src={emailIcon} alt="Email contact Icon" />
+      <ImMail className="size-6 hover:text-customGreen transition-all"/>
     </a>
   );
 }

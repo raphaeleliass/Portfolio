@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-white font-Poppins text-primary_black dark:bg-black dark:text-primary_white;
+}
+
+.header {
+  @apply fixed flex w-screen translate-y-0 justify-between bg-white px-12 py-4 shadow-xl transition-all duration-300 ease-in-out md:items-center md:justify-around md:px-0 dark:bg-primary_black dark:text-primary_white;
+}
+
+.header-active {
+  @apply fixed flex w-screen -translate-y-full justify-between px-4 py-4 text-primary_black duration-300 ease-in-out md:items-center md:justify-around md:px-0 dark:text-primary_white;
+}
+
+.nav-links {
+  @apply px-12 py-4 text-lg font-semibold transition-all hover:translate-y-1 hover:bg-primary_light_gray hover:text-black hover:shadow-md md:rounded-full md:px-2 md:py-2 md:text-sm md:hover:text-black;
+}
+
+.btn-green {
+  @apply rounded-full bg-green-500 px-4 py-2 font-semibold text-white shadow-md transition-all hover:translate-y-1 hover:bg-green-400 dark:bg-green-400 dark:hover:bg-green-500;
+}
+
+.section-shadow-dark {
+  box-shadow: 6px 8px #40a8d0;
+}
+
+.section-shadow {
+  box-shadow: 6px 8px #5e58d3;
+}
+
+.btn-black {
+  @apply mt-4 rounded-full border bg-primary_black px-4 py-2 text-primary_white shadow-md transition-all hover:bg-neutral-800 md:mt-0 md:px-4 md:py-2 dark:border-neutral-800 dark:bg-black dark:shadow-none;
+}
+
+.menu-mobile {
+  @apply fixed right-0 top-0 flex min-h-screen w-1/2 translate-x-full content-center justify-center bg-primary_black p-6 text-center duration-300 ease-in-out md:hidden;
+}
+
+.menu-mobile-active {
+  @apply fixed right-0 top-0 z-50 flex min-h-screen w-1/2 translate-x-0 content-center justify-center bg-primary_black p-6 text-center text-white duration-300 ease-in-out md:hidden;
+}
+
+.btn-scroll {
+  @apply fixed bottom-0 right-10 h-8 w-8 translate-y-full rounded-full duration-200 ease-in-out;
+}
+.btn-scroll-after {
+  @apply fixed bottom-10 right-10 h-14 w-14 -translate-y-0 rounded-full border border-primary_dark_gray bg-primary_black duration-200 ease-in-out;
+}
+.btn-scroll-after-dark {
+  @apply fixed bottom-10 right-10 h-14 w-14 -translate-y-0 rounded-full border border-primary_gray bg-primary_dark_gray duration-200 ease-in-out;
+}
+
+.cards {
+  @apply flex flex-col  rounded-lg bg-primary_white text-left justify-between gap-4 p-6 dark:bg-primary_black;
+}
+
+.hide {
+  @apply -translate-x-full opacity-0 blur transition-all duration-700;
+}
+
+.skills-grid {
+  @apply grid grid-cols-4 gap-4 rounded-xl bg-primary_white p-6 md:grid-cols-7 dark:bg-primary_black;
+}
+
+.skills-grid :nth-child(2) {
+  @apply delay-[200ms];
+}
+
+.skills-grid :nth-child(3) {
+  @apply delay-[300ms];
+}
+
+.skills-grid :nth-child(4) {
+  @apply delay-[400ms];
+}
+
+.skills-grid :nth-child(5) {
+  @apply delay-[500ms];
+}
+
+.skills-grid :nth-child(6) {
+  @apply delay-[600ms];
+}
+
+.skills-grid :nth-child(7) {
+  @apply delay-[700ms];
+}
+.skills-grid :nth-child(8) {
+  @apply delay-[200ms];
+}
+
+.skills-grid :nth-child(9) {
+  @apply delay-[300ms];
+}
+
+.skills-grid :nth-child(10) {
+  @apply delay-[400ms];
+}
+
+.skills-grid :nth-child(11) {
+  @apply delay-[500ms];
+}
+
+.skills-grid :nth-child(12) {
+  @apply delay-[600ms];
+}
+
+.skills-grid :nth-child(13) {
+  @apply delay-[700ms];
+}
+
+.show {
+  @apply translate-x-0 opacity-100 blur-none duration-500 ease-in-out;
+}
+
+.card-grid {
+  @apply mx-2 grid grid-cols-1 md:gap-6 gap-4 md:mx-0 md:grid-cols-2;
+}
+
+.card-grid :nth-child(2) {
+  @apply delay-[500ms];
+}
+
+.card-grid :nth-child(3) {
+  @apply delay-[600ms];
+}
+
+.card-grid :nth-child(4) {
+  @apply delay-[700ms];
+}

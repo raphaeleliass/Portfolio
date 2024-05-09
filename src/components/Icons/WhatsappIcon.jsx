@@ -1,4 +1,4 @@
-import whatsappIcon from "/whatsapp.svg";
+import { ImWhatsapp } from "react-icons/im";
 
 function WhatsappIcon() {
   return (
@@ -8,7 +8,7 @@ function WhatsappIcon() {
       rel="noreferrer"
       className="block p-1"
     >
-      <img className="size-6 hover:size-7 transition-all" src={whatsappIcon} alt="WhatsApp contact Icon" />
+      <ImWhatsapp className="size-6 hover:text-customGreen transition-all" />
     </a>
   );
 }

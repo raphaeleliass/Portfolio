@@ -1,5 +1,5 @@
+import { ImDownload3 } from "react-icons/im";
 import Buttons from "../Buttons/Buttons";
-import DownloadIcon from "/download.svg";
 
 function Hero() {
   return (
@@ -27,13 +27,16 @@ function Hero() {
             usuários.
           </p>
           <div className="flex flex-col gap-4 md:flex-row md:gap-6">
-            <Buttons
-              title="BAIXAR CV"
-              img={DownloadIcon}
-              imgClass="size-3"
-              href="/RaphaelElias-Curriculo.pdf"
-              target="_blank"
-            />
+            <button className="border-b-2 border-b-customGreen">
+              <a
+                href="/RaphaelElias-Curriculo.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 font-extralight transition-all hover:text-customGreen "
+              >
+                Baixar CV <ImDownload3 />
+              </a>
+            </button>
             <Buttons title="CONTATO" href="#contato" />
           </div>
         </section>

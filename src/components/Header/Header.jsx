@@ -15,10 +15,10 @@ function Header() {
         <nav>
           <ul className="flex gap-2">
             <li>
-              <GithubIcon />
+              <LinkedinIcon />
             </li>
             <li>
-              <LinkedinIcon />
+              <GithubIcon />
             </li>
             <li>
               <WhatsappIcon />
