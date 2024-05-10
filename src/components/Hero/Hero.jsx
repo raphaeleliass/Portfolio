@@ -9,7 +9,7 @@ function Hero() {
     >
       <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-0">
         <section className="flex flex-col items-center gap-12 text-center md:w-[600px] md:items-start md:text-start lg:w-[700px] lg:gap-16 ">
-          <div className="absolute z-10 font-bold text-customDarkGrey md:top-36 md:text-customBlack">
+          <div className="absolute z-10 font-bold text-customDarkGrey md:top-36 dark:text-customWhite">
             <h2 className="text-3xl md:text-5xl lg:text-6xl">Muito prazer!</h2>
             <h2 className="text-3xl md:text-5xl lg:text-6xl">
               Eu sou&nbsp;
