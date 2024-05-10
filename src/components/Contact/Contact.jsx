@@ -26,9 +26,9 @@ function Contact() {
         </div>
       </div>
       <div className="m-auto flex max-w-xs py-4 pb-4 text-customDarkGrey dark:text-customGrey">
-        <h2 className="text-sm font-light ">
+        <h2 className="text-sm font-extralight dark:font-thin ">
           Desenvolvido por &nbsp;
-          <a href="#header" className="font-medium">
+          <a href="#header" className="font-normal">
             <strong>Raphael Elias</strong>
           </a>
           &nbsp; 2024 &copy;

@@ -19,7 +19,7 @@ function Hero() {
               .
             </h2>
           </div>
-          <p className="px-10 text-center pt-28 md:pt-0  text-sm text-customDarkGrey md:mt-44 md:w-[400px] md:px-0 lg:w-[350px] lg:font-medium dark:text-customGrey">
+          <p className="px-10 pt-28 text-center text-sm text-customDarkGrey  md:mt-44 md:w-[400px] md:px-0 md:pt-0 md:text-left lg:w-[350px] lg:font-medium dark:text-customGrey">
             Desenvolvedor front-end e estudante do curso de Análise e
             Desenvolvimento de Sistemas, tenho o compromisso de não apenas
             criar, mas também aprimorar aplicativos e páginas web acessíveis,
