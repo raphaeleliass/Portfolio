@@ -9,7 +9,7 @@ function Hero() {
     >
       <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-0">
         <section className="flex flex-col items-center gap-12 text-center md:w-[600px] md:items-start md:text-start lg:w-[700px] lg:gap-16 ">
-          <div className="absolute top-[440px] z-10 font-bold md:top-36">
+          <div className="absolute z-10 font-bold text-customDarkGrey md:top-36 md:text-customBlack">
             <h2 className="text-3xl md:text-5xl lg:text-6xl">Muito prazer!</h2>
             <h2 className="text-3xl md:text-5xl lg:text-6xl">
               Eu sou&nbsp;
@@ -19,7 +19,7 @@ function Hero() {
               .
             </h2>
           </div>
-          <p className="px-10 text-start  text-sm text-customDarkGrey md:mt-44 md:w-[400px] md:px-0 lg:w-[350px] lg:font-medium dark:text-customGrey">
+          <p className="px-10 text-center pt-28 md:pt-0  text-sm text-customDarkGrey md:mt-44 md:w-[400px] md:px-0 lg:w-[350px] lg:font-medium dark:text-customGrey">
             Desenvolvedor front-end e estudante do curso de Análise e
             Desenvolvimento de Sistemas, tenho o compromisso de não apenas
             criar, mas também aprimorar aplicativos e páginas web acessíveis,
@@ -41,7 +41,7 @@ function Hero() {
           </div>
         </section>
         <section className="flex justify-center md:relative md:-mt-40 lg:-mr-6 ">
-          <div className="h-[350px] w-[200px] rounded-md bg-customGrey bg-hero bg-cover bg-center shadow-xl md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px] dark:bg-customDarkGrey"></div>
+          <div className="h-[350px] w-[200px] rounded-md bg-neutral-100 bg-hero bg-cover bg-center shadow-xl md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px] dark:bg-customDarkGrey"></div>
         </section>
       </div>
     </div>
