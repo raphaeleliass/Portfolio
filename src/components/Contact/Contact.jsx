@@ -6,7 +6,7 @@ import WhatsappIcon from "../Icons/WhatsappIcon";
 function Contact() {
   return (
     <footer
-      className="flex flex-col bg-customGrey  dark:bg-customDarkGrey"
+      className="flex flex-col bg-zinc-100  dark:bg-customDarkGrey"
       id="contato"
     >
       <div className="m-auto flex max-w-xs flex-col md:max-w-xl md:flex-row lg:max-w-5xl">
