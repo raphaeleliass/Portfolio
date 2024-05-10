@@ -1,7 +1,7 @@
 function Buttons(props) {
   return (
     <div>
-      <button className="border-b-2 border-b-customGreen p-1 text-sm font-extralight transition-all hover:text-customGreen">
+      <button className="border-b-2 border-b-customGreen p-1 text-sm font-normal transition-all hover:text-customGreen dark:font-extralight">
         <a
           className="flex flex-row items-center gap-2"
           href={props.href}

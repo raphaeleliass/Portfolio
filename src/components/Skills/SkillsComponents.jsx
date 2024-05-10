@@ -1,8 +1,10 @@
 function SkillsComponents(props) {
   return (
-    <div className="flex gap-4 flex-col md:text-start text-center">
+    <div className="flex flex-col gap-4 text-center md:text-start">
       <h2 className="text-4xl font-bold">{props.title}</h2>
-      <p className="text-sm text-customGrey">{props.text}</p>
+      <p className="text-sm text-neutral-400 dark:text-customGrey">
+        {props.text}
+      </p>
     </div>
   );
 }

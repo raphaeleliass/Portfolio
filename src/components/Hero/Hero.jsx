@@ -9,7 +9,7 @@ function Hero() {
     >
       <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-0">
         <section className="flex flex-col items-center gap-12 text-center md:w-[600px] md:items-start md:text-start lg:w-[700px] lg:gap-16 ">
-          <div className="absolute top-[440px] z-10 font-medium md:top-36">
+          <div className="absolute top-[440px] z-10 font-bold md:top-36">
             <h2 className="text-3xl md:text-5xl lg:text-6xl">Muito prazer!</h2>
             <h2 className="text-3xl md:text-5xl lg:text-6xl">
               Eu sou&nbsp;
@@ -19,7 +19,7 @@ function Hero() {
               .
             </h2>
           </div>
-          <p className="px-10 text-start  text-sm text-customGrey md:mt-44 md:w-[400px] md:px-0 lg:w-[350px] lg:font-medium">
+          <p className="px-10 text-start  text-sm text-customDarkGrey md:mt-44 md:w-[400px] md:px-0 lg:w-[350px] lg:font-medium dark:text-customGrey">
             Desenvolvedor front-end e estudante do curso de Análise e
             Desenvolvimento de Sistemas, tenho o compromisso de não apenas
             criar, mas também aprimorar aplicativos e páginas web acessíveis,
@@ -32,7 +32,7 @@ function Hero() {
                 href="/RaphaelElias-Curriculo.pdf"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 font-extralight transition-all hover:text-customGreen "
+                className="flex items-center gap-2 font-normal transition-all hover:text-customGreen dark:font-extralight "
               >
                 Baixar CV <ImDownload3 />
               </a>
@@ -40,9 +40,8 @@ function Hero() {
             <Buttons title="CONTATO" href="#contato" />
           </div>
         </section>
-        <div className="absolute z-40 hidden size-16 rounded-full border border-customWhite md:bottom-[500px] md:right-[370px] md:block lg:bottom-44 lg:right-[570px]"></div>
         <section className="flex justify-center md:relative md:-mt-40 lg:-mr-6 ">
-          <div className="h-[350px] w-[200px] rounded-md bg-customDarkGrey bg-hero bg-cover bg-center md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px]"></div>
+          <div className="h-[350px] w-[200px] rounded-md bg-customGrey bg-hero bg-cover bg-center shadow-xl md:h-[700px] md:w-[400px] lg:h-[650px] lg:w-[500px] dark:bg-customDarkGrey"></div>
         </section>
       </div>
     </div>

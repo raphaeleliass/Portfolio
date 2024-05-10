@@ -5,11 +5,14 @@ import WhatsappIcon from "../Icons/WhatsappIcon";
 
 function Contact() {
   return (
-    <footer className="flex flex-col bg-customDarkGrey" id="contato">
+    <footer
+      className="flex flex-col bg-customGrey  dark:bg-customDarkGrey"
+      id="contato"
+    >
       <div className="m-auto flex max-w-xs flex-col md:max-w-xl md:flex-row lg:max-w-5xl">
         <div className="flex flex-col items-center justify-center gap-4 py-20 text-center md:w-1/2 md:items-start md:gap-4 md:text-start lg:gap-0 ">
           <h2 className="text-5xl font-medium lg:py-6">Contato</h2>
-          <p className="text-sm text-customGrey lg:mr-32">
+          <p className="text-sm text-customDarkGrey lg:mr-32 dark:text-customGrey">
             Eu adoraria ouvir sobre seus projetos e como eu poderia ajudar
             neles. Para isso, entre em contato para discutirmos suas ideias e eu
             responderei o mais breve possível!
@@ -22,10 +25,10 @@ function Contact() {
           <GithubIcon />
         </div>
       </div>
-      <div className="m-auto flex max-w-xs py-4 pb-4 text-customGrey">
-        <h2 className="text-sm font-thin">
+      <div className="m-auto flex max-w-xs py-4 pb-4 text-customDarkGrey dark:text-customGrey">
+        <h2 className="text-sm font-light ">
           Desenvolvido por &nbsp;
-          <a href="#header">
+          <a href="#header" className="font-medium">
             <strong>Raphael Elias</strong>
           </a>
           &nbsp; 2024 &copy;

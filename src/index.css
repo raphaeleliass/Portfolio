@@ -9,5 +9,5 @@ html {
 }
 
 body {
-  @apply bg-customBlack font-Poppins text-customWhite;
+  @apply dark:bg-customBlack font-Poppins bg-customWhite text-customBlack dark:text-customWhite;
 }
