@@ -16,28 +16,28 @@ function Projects() {
         <ProjectCards
           imgCard={CrowdfundPage}
           titleCard="Crowdfund Landing Page"
-          descriptionCard="HTML CSS JavaScript"
+          descriptionCard="React Javascript Tailwind"
           hrefWebsite="https://raphaelelias-crowdfund.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/crowdfunding-product"
         />
         <ProjectCards
           imgCard={SunnySidePage}
           titleCard="Sunnyside Landing Page"
-          descriptionCard="HTML CSS JavaScript"
+          descriptionCard="HTML Tailwind JavaScript"
           hrefWebsite="https://raphaelelias-sunnyside.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/Sunnyside-React"
         />
         <ProjectCards
           imgCard={FyloPage}
           titleCard="Fylo Landing Page"
-          descriptionCard="HTML CSS"
+          descriptionCard="HTML Tailwind"
           hrefWebsite="https://raphaelelias-fylo-landingpage.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/fylo-landing-page"
         />
         <ProjectCards
           imgCard={NewsPage}
           titleCard="News Home Page"
-          descriptionCard="HTML CSS JavaScript"
+          descriptionCard="HTML Tailwind JavaScript"
           hrefWebsite="https://raphaelelias-news.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/news-homepage"
         />
