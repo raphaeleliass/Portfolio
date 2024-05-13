@@ -25,7 +25,7 @@ function Projects() {
           titleCard="Sunnyside Landing Page"
           descriptionCard="HTML CSS JavaScript"
           hrefWebsite="https://raphaelelias-sunnyside.vercel.app"
-          hrefRepository="https://github.com/raphaeleliass/sunnyside-landingpage"
+          hrefRepository="https://github.com/raphaeleliass/Sunnyside-React"
         />
         <ProjectCards
           imgCard={FyloPage}
