@@ -30,9 +30,9 @@ function Projects() {
         <ProjectCards
           imgCard={FyloPage}
           titleCard="Fylo Landing Page"
-          descriptionCard="HTML Tailwind"
-          hrefWebsite="https://raphaelelias-fylo-landingpage.vercel.app"
-          hrefRepository="https://github.com/raphaeleliass/fylo-landing-page"
+          descriptionCard="React Tailwind"
+          hrefWebsite="https://raphaelelias-fylo.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/Fylo-React"
         />
         <ProjectCards
           imgCard={NewsPage}
