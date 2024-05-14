@@ -16,14 +16,14 @@ function Projects() {
         <ProjectCards
           imgCard={CrowdfundPage}
           titleCard="Crowdfund Landing Page"
-          descriptionCard="React Javascript Tailwind"
+          descriptionCard="HTML Tailwind Javascript"
           hrefWebsite="https://raphaelelias-crowdfund.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/crowdfunding-product"
         />
         <ProjectCards
           imgCard={SunnySidePage}
           titleCard="Sunnyside Landing Page"
-          descriptionCard="HTML Tailwind JavaScript"
+          descriptionCard="React Tailwind JavaScript"
           hrefWebsite="https://raphaelelias-sunnyside.vercel.app"
           hrefRepository="https://github.com/raphaeleliass/Sunnyside-React"
         />
