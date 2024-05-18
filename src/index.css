@@ -9,5 +9,13 @@ html {
 }
 
 body {
-  @apply dark:bg-customBlack font-Poppins bg-customWhite text-customBlack dark:text-customWhite;
+  @apply bg-customWhite font-Poppins text-customBlack dark:bg-customBlack dark:text-customWhite;
+}
+
+.overflow-card {
+  @apply absolute flex h-56 w-80 lg:w-[510px] lg:h-[340px] items-center justify-center rounded-md bg-black bg-opacity-60 opacity-0 backdrop-blur-md transition-all md:h-64 md:w-96;
+}
+
+.overflow-card.active {
+  @apply absolute flex h-56 w-80 lg:w-[510px] lg:h-[340px] items-center justify-center rounded-md bg-black bg-opacity-60 opacity-100 backdrop-blur-xl transition-all md:h-64 md:w-96;
 }
