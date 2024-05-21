@@ -3,6 +3,7 @@ import SunnySidePage from "/sunnyside.webp";
 import FyloPage from "/fylo.webp";
 import NewsPage from "/news.webp";
 import CrowdfundPage from "/crowdfund.webp";
+import BarbershopPage from "/barbershop.webp";
 import Buttons from "../Buttons/Buttons";
 
 function Projects() {
@@ -13,6 +14,13 @@ function Projects() {
         <Buttons title="Entrar em contato" href="#contato" />
       </div>
       <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2">
+        <ProjectCards
+          imgCard={BarbershopPage}
+          titleCard="Barbershop Landing Page"
+          technologies={["React", "Tailwind", "Javascript"]}
+          hrefWebsite="https://raphaelelias-barbershop.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/Barbershop-React"
+        />
         <ProjectCards
           imgCard={CrowdfundPage}
           titleCard="Crowdfund Landing Page"
