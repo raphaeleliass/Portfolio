@@ -4,6 +4,7 @@ import FyloPage from "/fylo.webp";
 import NewsPage from "/news.webp";
 import CrowdfundPage from "/crowdfund.webp";
 import BarbershopPage from "/barbershop.webp";
+import EcoSolutions from '/ecosolutions.webp'
 import Buttons from "../Buttons/Buttons";
 
 function Projects() {
@@ -18,8 +19,15 @@ function Projects() {
           imgCard={BarbershopPage}
           titleCard="Barbershop Landing Page"
           technologies={["React", "Tailwind", "Javascript"]}
-          hrefWebsite="https://raphaelelias-barbershop.vercel.app"
-          hrefRepository="https://github.com/raphaeleliass/Barbershop-React"
+          hrefWebsite="https://raphaelelias-ecosolutions.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/EcoSolutions"
+        />
+        <ProjectCards
+          imgCard={EcoSolutions}
+          titleCard="EcoSolutions Landing Page"
+          technologies={["React", "Tailwind", "Javascript"]}
+          hrefWebsite="https://raphaelelias-news.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/news-homepage"
         />
         <ProjectCards
           imgCard={CrowdfundPage}
