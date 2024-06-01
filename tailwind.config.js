@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         Poppins: ["Poppins", "Arial", "Sans-Serif"],
+        Inter: ["Inter", "Arial", "Sans-Serif"],
       },
       backgroundImage: {
         hero: 'url("/raphael-elias.webp")',
