@@ -25,7 +25,7 @@ function ProjectCards({
   return (
     <div className="flex flex-col gap-4 text-center">
       <div
-        className="flex items-center justify-center content-center"
+        className="flex content-center items-center justify-center"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >

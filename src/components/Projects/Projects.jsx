@@ -4,7 +4,7 @@ import FyloPage from "/fylo.webp";
 import NewsPage from "/news.webp";
 import CrowdfundPage from "/crowdfund.webp";
 import BarbershopPage from "/barbershop.webp";
-import EcoSolutions from '/ecosolutions.webp'
+import EcoSolutions from "/ecosolutions.webp";
 import Buttons from "../Buttons/Buttons";
 
 function Projects() {
