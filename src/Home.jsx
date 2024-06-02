@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Projects from "./components/MyProjects/Projects";
 import Skills from "./components/MySkills/Skills";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Hero />
       <Skills />
+      <Projects/>
     </section>
   );
 }

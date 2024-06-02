@@ -1,9 +1,9 @@
 // ProjectCards.jsx
 
 import PropTypes from "prop-types";
-import Buttons from "../Buttons/Buttons";
 import Technology from "./Technology";
 import { useState } from "react";
+import BtnSecondary from "../Buttons/BtnSecondary";
 
 function ProjectCards({
   imgCard,
@@ -23,21 +23,17 @@ function ProjectCards({
   };
 
   return (
-    <div className="flex flex-col gap-4 text-center">
+    <div className="flex w-80 flex-col gap-4 text-center md:w-[370px] lg:w-[280px]">
       <div
         className="flex content-center items-center justify-center"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img className=" rounded-md" src={imgCard} alt="" />
+        <img className=" rounded-xl" src={imgCard} alt="" />
         <div className={`overflow-card ${isHovered ? "active" : ""}`}>
           <div className="flex items-center gap-4">
-            <Buttons title="Website" href={hrefWebsite} target="_blank" />
-            <Buttons
-              title="Repositório"
-              href={hrefRepository}
-              target="_blank"
-            />
+            <BtnSecondary text="website" href={hrefWebsite} />
+            <BtnSecondary text="repositório" href={hrefRepository} />
           </div>
         </div>
       </div>

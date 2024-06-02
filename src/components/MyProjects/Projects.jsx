@@ -1,3 +1,4 @@
+// Projects.jsx
 import ProjectCards from "./ProjectCards";
 import SunnySidePage from "/sunnyside.webp";
 import FyloPage from "/fylo.webp";
@@ -5,29 +6,27 @@ import NewsPage from "/news.webp";
 import CrowdfundPage from "/crowdfund.webp";
 import BarbershopPage from "/barbershop.webp";
 import EcoSolutions from "/ecosolutions.webp";
-import Buttons from "../Buttons/Buttons";
 
 function Projects() {
   return (
-    <div className="m-auto flex max-w-xs flex-col gap-24 py-12 md:max-w-3xl md:py-20 lg:max-w-5xl">
+    <div className="m-auto mt-32 flex w-full max-w-xs flex-col gap-24 md:max-w-3xl md:py-20 lg:max-w-6xl">
       <div className="flex items-center justify-between">
-        <h2 className="text-4xl font-bold md:text-7xl">Projetos</h2>
-        <Buttons title="Entrar em contato" href="#contato" />
+        <h2 className="text-4xl font-bold md:text-5xl">Projetos</h2>
       </div>
-      <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2">
+      <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4">
         <ProjectCards
           imgCard={BarbershopPage}
           titleCard="Barbershop Landing Page"
           technologies={["React", "Tailwind", "Javascript"]}
-          hrefWebsite="https://raphaelelias-ecosolutions.vercel.app"
-          hrefRepository="https://github.com/raphaeleliass/EcoSolutions"
+          hrefWebsite="https://raphaelelias-barbershop.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/barbershop-react"
         />
         <ProjectCards
           imgCard={EcoSolutions}
           titleCard="EcoSolutions Landing Page"
           technologies={["React", "Tailwind", "Javascript"]}
-          hrefWebsite="https://raphaelelias-news.vercel.app"
-          hrefRepository="https://github.com/raphaeleliass/news-homepage"
+          hrefWebsite="https://raphaelelias-ecosolutions.vercel.app"
+          hrefRepository="https://github.com/raphaeleliass/ecosolutions"
         />
         <ProjectCards
           imgCard={CrowdfundPage}

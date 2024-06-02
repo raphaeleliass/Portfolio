@@ -13,11 +13,11 @@ body {
 }
 
 .header {
-  @apply fixed left-0 right-0 top-0 z-30 mx-auto flex w-screen content-center items-center justify-center bg-neutral-950  py-6 duration-300 ease-in-out md:static md:flex-row md:py-8;
+  @apply fixed left-0 right-0 top-0 z-30 mx-auto flex w-screen content-center items-center justify-center py-6  duration-300 ease-in-out md:static md:flex-row md:py-8 dark:bg-neutral-950;
 }
 
 .header.active {
-  @apply fixed left-0 right-0 top-0 mx-auto flex w-screen content-center items-center justify-center bg-white py-4 shadow-xl  duration-300 ease-in-out  md:static md:flex-row md:py-8 md:shadow-none dark:bg-neutral-900;
+  @apply fixed left-0 right-0 top-0 mx-auto flex w-screen content-center items-center justify-center bg-white py-4 shadow-xl  duration-300 ease-in-out md:static md:flex-row md:py-8 md:shadow-none dark:bg-neutral-900;
 }
 
 .navbar {
@@ -34,4 +34,12 @@ body {
 
 .btn-scroll-top.active {
   @apply fixed bottom-12 right-12 flex rotate-0 items-center justify-center rounded-full bg-black p-4 text-white duration-300 ease-in-out md:bottom-12 md:right-32 dark:bg-white dark:text-black;
+}
+
+.overflow-card {
+  @apply absolute flex h-[190px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-0 backdrop-blur-md transition-all md:h-[220px] md:w-[370px] lg:h-[170px] lg:w-[280px];
+}
+
+.overflow-card.active {
+  @apply absolute flex h-[190px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-100 backdrop-blur-md transition-all md:h-[220px] md:w-[370px] lg:h-[170px] lg:w-[280px];
 }

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import AllLinks from "./AllLinks";
+import AllLinks from "./MyLinks";
 import NotFound from "./NotFound";
 
 function App() {

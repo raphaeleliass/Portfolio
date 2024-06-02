@@ -2,11 +2,11 @@ import PropTypes from "prop-types";
 
 function BtnSecondary({ href, text, children }) {
   return (
-    <button className="flex flex-row items-center transition-all hover:text-green-600">
+    <button className="flex flex-row items-center">
       <a
         href={href}
         target="_blank"
-        className="p-1 underline underline-offset-4"
+        className="p-1 text-white underline underline-offset-4 hover:text-green-500 transition-all"
       >
         {text}
       </a>
