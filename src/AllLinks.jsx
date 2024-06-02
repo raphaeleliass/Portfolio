@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function AllLinks() {
   return (
-    <section className="flex min-h-screen w-screen items-center justify-center">
-      <div className="m-4 flex w-full flex-col gap-12 rounded-3xl p-8 py-12 md:w-[500px] md:gap-12 md:p-12 lg:w-[500px] lg:gap-12 lg:p-12">
+    <section className="flex min-h-screen w-screen items-center justify-center dark:bg-neutral-800">
+      <div className="dark:bg-gradient m-4 flex w-full flex-col gap-12 rounded-3xl bg-gradient-to-t from-white to-neutral-100 p-8 py-12 text-black shadow-2xl md:w-[500px]  md:gap-12 md:p-12 lg:w-[500px] lg:gap-12 lg:p-12 dark:from-neutral-950 dark:to-neutral-900 dark:text-white">
         <div className="flex flex-row items-center gap-4">
           <img
             src="https://avatars.githubusercontent.com/u/91913011?v=4"
@@ -13,8 +13,10 @@ function AllLinks() {
             className="size-20 rounded-full"
           />
           <div className="flex flex-col">
-            <h1 className="text-2xl font-bold">Raphael Elias</h1>
-            <h2 className="font-Inter text-sm">
+            <h1 className="text-2xl font-bold text-neutral-600 dark:text-neutral-300">
+              Raphael Elias
+            </h1>
+            <h2 className="font-Inter text-sm text-neutral-400 dark:text-neutral-100">
               Front-End Developer
             </h2>
           </div>
@@ -23,7 +25,7 @@ function AllLinks() {
         <div className="flex w-full flex-col">
           <div className="">
             <ul className="flex flex-col gap-6">
-              <li className="items-center rounded-full border border-neutral-700 px-6 py-1 transition-all hover hover:font-bold hover">
+              <li className="items-center rounded-full border border-neutral-400 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
                 <Link
                   ink
                   to="/"
@@ -33,7 +35,7 @@ function AllLinks() {
                   <p className="text-xl">Portfólio</p>
                 </Link>
               </li>
-              <li className="items-center rounded-full border border-neutral-700 px-6 py-1 transition-all hover hover:font-bold hover">
+              <li className="items-center rounded-full border border-neutral-400 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
                 <a
                   href="https://linkedin.com/in/raphaeleliass"
                   target="_blank"
@@ -43,7 +45,7 @@ function AllLinks() {
                   <p className="text-xl">Linkedin</p>
                 </a>
               </li>
-              <li className="items-center rounded-full border border-neutral-700 px-6 py-1 transition-all hover hover:font-bold hover">
+              <li className="items-center rounded-full border border-neutral-400 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
                 <a
                   href="https://github.com/raphaeleliass"
                   target="_blank"
@@ -53,7 +55,7 @@ function AllLinks() {
                   <p className="text-xl">Github</p>
                 </a>
               </li>
-              <li className="items-center rounded-full border border-neutral-700 px-6 py-1 transition-all hover hover:font-bold hover">
+              <li className="items-center rounded-full border border-neutral-400 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
                 <a
                   href="https://instagram.com/raphaeleliass"
                   target="_blank"
@@ -63,7 +65,7 @@ function AllLinks() {
                   <p className="text-xl">Instagram</p>
                 </a>
               </li>
-              <li className="items-center rounded-full border border-neutral-700 px-6 py-1 transition-all hover hover:font-bold hover">
+              <li className="items-center rounded-full border border-neutral-400 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
                 <a href="#" className="flex flex-row items-center gap-2 py-2 ">
                   <FaWhatsapp className="size-6" />
                   <p className="text-xl">Whatsapp</p>

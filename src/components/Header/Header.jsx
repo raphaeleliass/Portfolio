@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import ListItems from "./ListItems";
 import { BiMenu } from "react-icons/bi";
 import { IoMdCloseCircle } from "react-icons/io";
-import ScrollTop from "../Buttons/ScrollTop";
-import PrimaryBtn from "../Buttons/PrimaryBtn";
+import BtnScrollTop from "../Buttons/BtnScrollTop";
+import BtnPrimary from "../Buttons/BtnPrimary";
 
 function Header() {
   useEffect(() => {
@@ -42,7 +42,7 @@ function Header() {
           <BiMenu className="size-8 md:hidden" />
         </button>
         <nav className={`navbar ${menuOpen ? "active" : ""}`}>
-          <ul className="font-Inter flex flex-col items-center gap-x-2 gap-y-12 md:flex-row">
+          <ul className="flex flex-col items-center gap-x-2 gap-y-12 font-Inter md:flex-row">
             <li className="absolute right-0 top-0">
               <button
                 onClick={toggleMenu}
@@ -62,7 +62,7 @@ function Header() {
               <ListItems href="#" text="Projetos" />
             </li>
             <li onClick={toggleMenu}>
-              <PrimaryBtn href="#" text="Contato"></PrimaryBtn>
+              <BtnPrimary href="#" text="Contato"></BtnPrimary>
             </li>
           </ul>
         </nav>
@@ -75,7 +75,7 @@ function Header() {
         ></div>
       )}
 
-      <ScrollTop />
+      <BtnScrollTop />
     </header>
   );
 }

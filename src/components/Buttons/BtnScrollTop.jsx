@@ -1,7 +1,7 @@
 import { ImArrowUp } from "react-icons/im";
 import { useEffect } from "react";
 
-function ScrollTop() {
+function BtnScrollTop() {
   useEffect(() => {
     const handleScroll = () => {
       const header = document.getElementsByClassName("btn-scroll-top")[0];
@@ -26,4 +26,4 @@ function ScrollTop() {
   );
 }
 
-export default ScrollTop;
+export default BtnScrollTop;
