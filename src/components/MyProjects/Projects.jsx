@@ -6,12 +6,18 @@ import NewsPage from "/news.webp";
 import CrowdfundPage from "/crowdfund.webp";
 import BarbershopPage from "/barbershop.webp";
 import EcoSolutions from "/ecosolutions.webp";
+import BtnPrimary from "../Buttons/BtnPrimary";
 
 function Projects() {
   return (
-    <div className="m-auto mt-32 flex w-full max-w-xs flex-col gap-24 md:max-w-3xl md:py-20 lg:max-w-6xl">
-      <div className="flex items-center justify-between">
-        <h2 className="text-4xl font-bold md:text-5xl">Projetos</h2>
+    <section id="projects" className="m-auto pt-32 flex w-full max-w-xs flex-col gap-24 md:max-w-3xl md:py-20 lg:max-w-6xl">
+      <div className="flex items-center  md:justify-between">
+        <h2 className="text-center text-4xl font-bold md:text-left md:text-5xl ">
+          Projetos
+        </h2>
+        <div className="hidden md:block">
+          <BtnPrimary href="/links" text="Entrar em Contato" />
+        </div>
       </div>
       <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4">
         <ProjectCards
@@ -57,7 +63,7 @@ function Projects() {
           hrefRepository="https://github.com/raphaeleliass/news-homepage"
         />
       </div>
-    </div>
+    </section>
   );
 }
 

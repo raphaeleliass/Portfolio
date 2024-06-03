@@ -42,7 +42,7 @@ function Header() {
           <BiMenu className="size-8 md:hidden" />
         </button>
         <nav className={`navbar ${menuOpen ? "active" : ""}`}>
-          <ul className="flex flex-col items-center gap-x-2 gap-y-12 font-Inter md:flex-row">
+          <ul className="flex flex-col items-center gap-x-6 gap-y-12 font-Inter md:flex-row">
             <li className="absolute right-0 top-0">
               <button
                 onClick={toggleMenu}
@@ -56,13 +56,13 @@ function Header() {
               <ListItems href="#" text="Início" />
             </li>
             <li onClick={toggleMenu}>
-              <ListItems href="#" text="Skills" />
+              <ListItems href="#skills" text="Skills" />
             </li>
             <li onClick={toggleMenu}>
-              <ListItems href="#" text="Projetos" />
+              <ListItems href="#projects" text="Projetos" />
             </li>
             <li onClick={toggleMenu}>
-              <BtnPrimary href="#" text="Contato"></BtnPrimary>
+              <BtnPrimary href="#contact" text="Contato"></BtnPrimary>
             </li>
           </ul>
         </nav>

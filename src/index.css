@@ -37,9 +37,9 @@ body {
 }
 
 .overflow-card {
-  @apply absolute flex h-[190px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-0 backdrop-blur-md transition-all md:h-[220px] md:w-[370px] lg:h-[170px] lg:w-[280px];
+  @apply absolute flex h-[195px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-0 backdrop-blur-md transition-all md:h-[225px] md:w-[370px] lg:h-[175px] lg:w-[280px];
 }
 
 .overflow-card.active {
-  @apply absolute flex h-[190px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-100 backdrop-blur-md transition-all md:h-[220px] md:w-[370px] lg:h-[170px] lg:w-[280px];
+  @apply absolute flex h-[195px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-100 backdrop-blur-md transition-all md:h-[225px] md:w-[370px] lg:h-[175px] lg:w-[280px];
 }
