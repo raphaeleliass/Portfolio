@@ -17,7 +17,7 @@ function Hero() {
             garantindo que cada interação seja uma experiência única.
           </p>
           <div className="flex flex-row gap-4">
-            <BtnPrimary text="Baixar CV">
+            <BtnPrimary text="Baixar CV" href="./RaphaelElias-Curriculo.pdf">
               <FaDownload />
             </BtnPrimary>
             <BtnSecondary

@@ -17,7 +17,7 @@ body {
 }
 
 .header.active {
-  @apply fixed left-0 right-0 top-0 mx-auto flex w-screen content-center items-center justify-center bg-white py-4 shadow-xl  duration-300 ease-in-out md:static md:flex-row md:py-8 md:shadow-none dark:bg-neutral-900;
+  @apply fixed left-0 right-0 top-0 mx-auto flex w-screen content-center items-center justify-center bg-white py-4 shadow-xl  duration-300 ease-in-out md:static md:flex-row md:py-8 md:shadow-none dark:bg-neutral-900 md:dark:bg-transparent;
 }
 
 .navbar {
