@@ -15,7 +15,7 @@ function BtnPrimary({ href, text, children }) {
 }
 
 BtnPrimary.propTypes = {
-  href: PropTypes.string.isRequired,
+  href: PropTypes.string,
   text: PropTypes.string.isRequired,
   children: PropTypes.string,
 };

@@ -7,17 +7,21 @@ import CrowdfundPage from "/crowdfund.webp";
 import BarbershopPage from "/barbershop.webp";
 import EcoSolutions from "/ecosolutions.webp";
 import BtnPrimary from "../Buttons/BtnPrimary";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <section id="projects" className="m-auto pt-32 flex w-full max-w-xs flex-col gap-24 md:max-w-3xl md:py-20 lg:max-w-6xl">
+    <section
+      id="projects"
+      className="m-auto flex w-full max-w-xs flex-col gap-24 pt-32 md:max-w-3xl md:py-20 lg:max-w-6xl"
+    >
       <div className="flex items-center  md:justify-between">
         <h2 className="text-center text-4xl font-bold md:text-left md:text-5xl ">
           Projetos
         </h2>
-        <div className="hidden md:block">
-          <BtnPrimary href="/links" text="Entrar em Contato" />
-        </div>
+        <Link to="/links">
+          <BtnPrimary text="Entre em Contato" />
+        </Link>
       </div>
       <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4">
         <ProjectCards

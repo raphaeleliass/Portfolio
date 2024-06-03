@@ -50,7 +50,11 @@ function Contact() {
         <p>
           &copy; criado e desenvolvido por{" "}
           <strong>
-            <a href="https://linkedin.com/in/raphaeleliass" target="_blank">
+            <a
+              href="https://linkedin.com/in/raphaeleliass"
+              target="_blank"
+              className="font-bold text-neutral-500"
+            >
               Raphael Elias
             </a>
           </strong>

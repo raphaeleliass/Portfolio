@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function MyLinks() {
   return (
     <section className="flex min-h-screen w-screen items-center justify-center bg-gray-100 dark:bg-neutral-800">
-      <div className="dark:bg-gradient m-4 flex w-full flex-col gap-12 rounded-3xl border border-neutral-200 bg-gradient-to-t from-white via-neutral-50 dark:border-none to-neutral-100 p-8 py-12 text-black shadow-2xl md:w-[500px]  md:gap-12 md:p-12 lg:w-[500px] lg:gap-12 lg:p-12 dark:from-neutral-950 dark:to-neutral-900 dark:text-white">
+      <div className="dark:bg-gradient m-4 flex w-full flex-col gap-12 rounded-3xl border border-neutral-200 bg-gradient-to-t from-white via-neutral-50 to-neutral-100 p-8 py-12 text-black shadow-2xl md:w-[500px] md:gap-12 md:p-12 lg:w-[500px] lg:gap-12 lg:p-12 dark:border-none dark:from-neutral-950 dark:to-neutral-900 dark:text-white">
         <div className="flex flex-row items-center gap-4">
           <img
             src="https://avatars.githubusercontent.com/u/91913011?v=4"
@@ -26,11 +26,7 @@ function MyLinks() {
           <div className="">
             <ul className="flex flex-col gap-6">
               <li className="items-center rounded-full border border-neutral-300 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
-                <Link
-                  ink
-                  to="/"
-                  className="flex flex-row items-center gap-2 py-2"
-                >
+                <Link to="/" className="flex flex-row items-center gap-2 py-2">
                   <MdWork className="size-6" />
                   <p className="text-xl">Portfólio</p>
                 </Link>
@@ -39,7 +35,8 @@ function MyLinks() {
                 <a
                   href="https://linkedin.com/in/raphaeleliass"
                   target="_blank"
-                  className="flex flex-row items-center gap-2 py-2 "
+                  rel="noopener noreferrer"
+                  className="flex flex-row items-center gap-2 py-2"
                 >
                   <FaLinkedin className="size-6" />
                   <p className="text-xl">Linkedin</p>
@@ -49,7 +46,8 @@ function MyLinks() {
                 <a
                   href="https://github.com/raphaeleliass"
                   target="_blank"
-                  className="flex flex-row items-center gap-2 py-2 "
+                  rel="noopener noreferrer"
+                  className="flex flex-row items-center gap-2 py-2"
                 >
                   <FaGithub className="size-6" />
                   <p className="text-xl">Github</p>
@@ -59,14 +57,15 @@ function MyLinks() {
                 <a
                   href="https://instagram.com/raphaeleliass"
                   target="_blank"
-                  className="flex flex-row items-center gap-2 py-2 "
+                  rel="noopener noreferrer"
+                  className="flex flex-row items-center gap-2 py-2"
                 >
                   <FaInstagram className="size-6" />
                   <p className="text-xl">Instagram</p>
                 </a>
               </li>
               <li className="items-center rounded-full border border-neutral-300 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
-                <a href="#" className="flex flex-row items-center gap-2 py-2 ">
+                <a href="#" className="flex flex-row items-center gap-2 py-2">
                   <FaWhatsapp className="size-6" />
                   <p className="text-xl">Whatsapp</p>
                 </a>

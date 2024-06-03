@@ -42,7 +42,7 @@ function Header() {
           <BiMenu className="size-8 md:hidden" />
         </button>
         <nav className={`navbar ${menuOpen ? "active" : ""}`}>
-          <ul className="flex flex-col items-center gap-x-6 gap-y-12 font-Inter md:flex-row">
+          <ul className="flex flex-col items-center gap-x-6 gap-y-12 font-Inter md:flex-row md:bg-transparent">
             <li className="absolute right-0 top-0">
               <button
                 onClick={toggleMenu}
