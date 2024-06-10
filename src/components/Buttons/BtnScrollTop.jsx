@@ -18,11 +18,11 @@ function BtnScrollTop() {
   }, []);
 
   return (
-    <div className="btn-scroll-top">
-      <a href="#">
+    <a href="#">
+      <button aria-label="scroll top button" className="btn-scroll-top">
         <ImArrowUp />
-      </a>
-    </div>
+      </button>
+    </a>
   );
 }
 

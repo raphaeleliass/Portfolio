@@ -6,7 +6,7 @@ function BtnSecondary({ href, text, children }) {
       <a
         href={href}
         target="_blank"
-        className="p-1 text-white underline underline-offset-4 hover:text-green-500 transition-all"
+        className="p-1 text-black underline underline-offset-4 transition-all hover:text-green-500 dark:text-white"
       >
         {text}
       </a>

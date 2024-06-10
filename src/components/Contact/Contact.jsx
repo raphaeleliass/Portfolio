@@ -23,7 +23,7 @@ function Contact() {
               <FaInstagram className="size-8 md:size-6" />
             </a>
             <a
-              href="https://wa.me/5528999763920?text=Olá,%20vi%20seu%20portfólio,%20podemos%20conversar?"
+              href="https://wa.me/5528999763920?text=Ol%C3%A1,%20v%C3%AD%20seu%20portf%C3%B3lio.%20Podemos%20conversar?"
               target="_blank"
               className="p-px transition-all hover:text-green-400"
             >
@@ -48,7 +48,7 @@ function Contact() {
       </div>
       <div className="pb-4 text-center text-xs font-light capitalize text-neutral-500">
         <p>
-          &copy; criado e desenvolvido por{" "}
+          &copy; criado e desenvolvido por
           <strong>
             <a
               href="https://linkedin.com/in/raphaeleliass"

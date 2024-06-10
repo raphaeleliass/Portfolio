@@ -65,7 +65,11 @@ function MyLinks() {
                 </a>
               </li>
               <li className="items-center rounded-full border border-neutral-300 px-6 py-1 transition-all hover:bg-neutral-800 hover:text-white dark:border-neutral-700">
-                <a href="#" className="flex flex-row items-center gap-2 py-2">
+                <a
+                  target="_blank"
+                  href="https://wa.me/5528999763920?text=Ol%C3%A1,%20v%C3%AD%20seu%20portf%C3%B3lio.%20Podemos%20conversar?"
+                  className="flex flex-row items-center gap-2 py-2"
+                >
                   <FaWhatsapp className="size-6" />
                   <p className="text-xl">Whatsapp</p>
                 </a>

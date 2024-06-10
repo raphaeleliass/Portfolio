@@ -33,7 +33,7 @@ body {
 }
 
 .btn-scroll-top.active {
-  @apply fixed bottom-12 right-12 flex rotate-0 items-center justify-center rounded-full bg-black p-4 text-white duration-300 ease-in-out md:bottom-12 md:right-32 dark:bg-white dark:text-black;
+  @apply fixed bottom-12 right-12 flex rotate-0 items-center justify-center rounded-full bg-black p-4 text-white duration-300 ease-in-out md:bottom-12 md:right-32 dark:bg-white z-30 dark:text-black;
 }
 
 .overflow-card {
@@ -41,5 +41,5 @@ body {
 }
 
 .overflow-card.active {
-  @apply absolute flex h-[195px] w-[320px] items-center justify-center rounded-xl bg-neutral-900 bg-opacity-70 opacity-100 backdrop-blur-md transition-all md:h-[225px] md:w-[370px] lg:h-[175px] lg:w-[280px];
+  @apply absolute flex h-[195px] w-[320px] items-center justify-center rounded-xl bg-neutral-200 bg-opacity-70 opacity-100 backdrop-blur-md transition-all md:h-[225px] md:w-[370px] lg:h-[175px] lg:w-[280px];
 }
