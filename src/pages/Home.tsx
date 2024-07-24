@@ -18,7 +18,7 @@ import { useEffect, useState } from "react";
 import Tag from "@/components/ui/tag";
 import Footer from "@/components/Footer/footer";
 import SocialButton from "@/components/ui/socialButton";
-import Modal  from "react-modal";
+import Modal from "react-modal";
 
 import { FaLinkedin, FaWhatsapp, FaGithub, FaInstagram } from "react-icons/fa";
 import Description from "@/components/ui/description";
@@ -212,7 +212,7 @@ function Home() {
           onClick={closeModal}
           className="absolute right-4 top-4 text-white"
         >
-          <IoMdClose className="size-6"/>
+          <IoMdClose className="size-6" />
         </button>
         <img
           src={selectedImage}

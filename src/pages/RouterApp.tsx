@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import NotFound from "./NotFound";
 import MyLinks from "./MyLinks";
-import Header from "@/components/ui/sections/header";
 
 function RouterApp() {
   return (
