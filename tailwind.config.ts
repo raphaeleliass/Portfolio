@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        custom_White: "#F5F5F5",
+      },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
         Inter: ["Inter", "sans-serif"],

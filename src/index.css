@@ -7,5 +7,13 @@ html {
 }
 
 body {
-  @apply font-Inter;
+  @apply bg-custom_White font-Inter;
+}
+
+.menu-bar {
+  @apply fixed right-0 top-0 z-50 min-h-screen w-2/3 translate-x-full bg-white font-Poppins text-2xl font-semibold transition-all md:static md:min-h-0 md:w-auto md:translate-x-0 md:p-0;
+}
+
+.menu-bar.active {
+  @apply fixed right-0 top-0 z-50 min-h-screen w-2/3 translate-x-0 bg-white font-Poppins text-2xl font-semibold transition-all md:static md:min-h-0 md:w-auto md:translate-x-0 md:p-0;
 }

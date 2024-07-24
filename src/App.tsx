@@ -1,4 +1,4 @@
-import RouterApp from "./routes/routerApp";
+import RouterApp from "./pages/RouterApp";
 
 function App() {
   return <RouterApp />;

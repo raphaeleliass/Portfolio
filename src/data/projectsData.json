@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "image_path": "./moviefinder.webp",
+    "title": "Movie Finder",
+    "desc": "Movie Finder é um projeto que exibe diversos filmes e informações sobre eles também. O projeto consome a API do site TMBD.",
+    "tag": [
+      {
+        "id": "1",
+        "name": "ReactJS"
+      },
+      {
+        "id": "2",
+        "name": "TypeScript"
+      },
+      {
+        "id": "3",
+        "name": "Tailwind"
+      }
+    ],
+    "github_url": "https://github.com/raphaeleliass/movie-finder",
+    "website_url": "https://raphaelelias-moviefinder.vercel.app"
+  },
+
+  {
+    "id": "2",
+    "image_path": "./crowdfund.webp",
+    "title": "CrowdFund",
+    "desc": "CrowdFund é um projeto de arrecadação para um produto. O projeto inclui validação de formulário e CSS",
+    "tag": [
+      {
+        "id": "1",
+        "name": "HTML"
+      },
+      {
+        "id": "2",
+        "name": "Tailwind"
+      },
+      {
+        "id": "3",
+        "name": "JavaScript"
+      }
+    ],
+    "github_url": "https://github.com/raphaeleliass/crowdfunding-product",
+    "website_url": "https://raphaelelias-crowdfund.vercel.app"
+  },
+
+  {
+    "id": "3",
+    "image_path": "./barbershop.webp",
+    "title": "Barbershop",
+    "desc": "Barbershop é uma landing page para apresentação de uma barbearia. O projeto conta com animações e um design moderno.",
+    "tag": [
+      {
+        "id": "1",
+        "name": "ReactJS"
+      },
+      {
+        "id": "2",
+        "name": "Tailwind"
+      },
+      {
+        "id": "3",
+        "name": "JavaScript"
+      }
+    ],
+    "github_url": "https://github.com/raphaeleliass/Barbershop-React",
+    "website_url": "https://raphaelelias-barbershop.vercel.app"
+  },
+
+  {
+    "id": "4",
+    "image_path": "./sunnyside.webp",
+    "title": "SunnySide",
+    "desc": "SunnySide se trata de uma landing page. O projeto usa conceito de flexbox e é totalmente responsivo.",
+    "tag": [
+      {
+        "id": "1",
+        "name": "HTML"
+      },
+      {
+        "id": "2",
+        "name": "CSS"
+      },
+      {
+        "id": "3",
+        "name": "JavaScript"
+      }
+    ],
+    "github_url": "https://github.com/raphaeleliass/Sunnyside-React",
+    "website_url": "https://raphaelelias-sunnyside.vercel.app"
+  }
+]
