@@ -1,46 +1,30 @@
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+# React + TypeScript + Vite
 
-# Meu portfólio 🎨
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Sobre ❓
+Currently, two official plugins are available:
 
-Este é meu portfólio profissional. Totalmente desenvolvido por mim usando as seguintes tecnologias:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- React JS ( Vite JS )
-- TailWindCSS
+## Expanding the ESLint configuration
 
-Também foram usados os seguintes conceitos:
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Display Flex
-- Display Grid
-- SEO
-- Props ( React JS )
-- Responsividade ( TVs, Tablets, Desktops, Notebooks e Smartphones )
+- Configure the top-level `parserOptions` property like this:
 
-## Links 🌐
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
 
-- Confira o projeto clicando [aqui](https://raphaelelias.vercel.app)
-- Confira meu GitHub clicando [aqui](https://github.com/raphaeleliass)
-
-## Contato ☎️
-
-- Meu [Linkedin](https://linkedin.com/in/raphaeleliass)
-- Meu [Instagram](https://intagram.com/raphaeleliass)
-- Meu [Whatsapp](https://wa.me/5528999763920)
-
-### ou
-
-Entre em contato pelo e-mail: raphaeleliass@outlook.com
-
-## Capturas de Tela 📸
-
-### Desktop
-
-![](/src/assets/screenshots/desktop-preview.webp)
-
-### Smartphones
-
-![](/src/assets/screenshots/mobile-preview.webp)
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

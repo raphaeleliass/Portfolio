@@ -20,6 +20,8 @@ import Footer from "@/components/Footer/footer";
 import SocialButton from "@/components/ui/socialButton";
 import Modal from "react-modal";
 
+Modal.setAppElement("#root");
+
 import { FaLinkedin, FaWhatsapp, FaGithub, FaInstagram } from "react-icons/fa";
 import Description from "@/components/ui/description";
 import { IoMdClose } from "react-icons/io";

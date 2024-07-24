@@ -7,7 +7,7 @@ interface FooterProps extends ComponentProps<"footer"> {
 
 function Footer({ className, children, ...props }: FooterProps) {
   return (
-    <footer
+    <footer {...props}
       className={cn(
         "flex items-center text-white flex-col w-full bg-neutral-900 py-20",
         className,
