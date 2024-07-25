@@ -70,13 +70,13 @@ function Home() {
   useEffect(() => {
     async function getData() {
       try {
-        const techsResponse = await axios.get("src/data/techData.json");
+        const techsResponse = await axios.get("/src/data/techData.json");
         setTechs(techsResponse.data);
 
-        const projectsResponse = await axios.get("src/data/projectsData.json");
+        const projectsResponse = await axios.get("/src/data/projectsData.json");
         setProjects(projectsResponse.data);
 
-        const linksResponse = await axios.get("src/data/linksData.json");
+        const linksResponse = await axios.get("/src/data/linksData.json");
         setLinks(linksResponse.data);
       } catch (err) {
         console.log(err);
