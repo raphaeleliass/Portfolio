@@ -11,7 +11,7 @@ function Header() {
   }
 
   return (
-    <header className="sticky inset-0 flex items-center justify-center bg-custom_White py-6 md:static lg:py-4">
+    <header className="sticky inset-0 z-50 flex items-center justify-center bg-custom_White py-6 md:static lg:py-4">
       <div className="flex w-full max-w-xs items-center justify-between md:max-w-3xl xl:max-w-6xl">
         <Link
           to="/"
