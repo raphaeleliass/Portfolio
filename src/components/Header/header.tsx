@@ -15,9 +15,9 @@ function Header() {
       <div className="flex w-full max-w-xs items-center justify-between md:max-w-3xl xl:max-w-6xl">
         <Link
           to="/"
-          className="font-Poppins text-3xl font-bold drop-shadow-2xl md:text-5xl"
+          className="font-Poppins text-2xl font-bold drop-shadow-2xl md:text-3xl"
         >
-          Raphael
+          Raphael Elias
         </Link>
 
         <button className="md:hidden" onClick={toggleMenu}>

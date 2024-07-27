@@ -13,7 +13,10 @@ function MyLinks() {
     <section className="flex min-h-[100dvh] items-center justify-center">
       <Card className="p-2">
         <CardHeader className="flex flex-row items-center space-x-4">
-          <div className="size-16 rounded-full bg-slate-800" />
+          <img
+            src="./profile.webp"
+            className="size-16 rounded-full bg-gradient-to-t from-neutral-300 via-neutral-100 to-white object-cover object-center shadow-lg"
+          />
           <div className="">
             <CardTitle>Raphael Elias</CardTitle>
             <CardDescription>Desenvolvedor Front-end</CardDescription>

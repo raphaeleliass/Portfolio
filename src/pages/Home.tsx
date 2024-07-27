@@ -94,17 +94,18 @@ function Home() {
     <>
       <Header />
       <main className="mx-auto max-w-xs md:max-w-3xl lg:max-w-6xl">
-        <Section className="flex flex-col-reverse gap-y-12 md:flex-row">
+        <Section className="flex flex-col-reverse items-center justify-center gap-y-12 md:flex-row">
           <div className="flex flex-col space-y-4 md:w-1/2">
-            <Title>Olá,</Title>
+            <Title className="text-4xl">Olá,</Title>
             <Title className="md:text-left">
-              Que tal tirar os planos dos papéis?
+              Que tal dar vida aos seus projetos?
             </Title>
-            <Description className="text-center md:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-              deserunt eius, ea laborum possimus accusamus in molestias
-              voluptatem architecto id, laboriosam enim adipisci tempore! Dicta
-              blanditiis rem maiores iusto consequuntur.
+            <Description className="text-center md:w-[460px] md:text-left">
+              Sou Raphael Elias, desenvolvedor Front-End apaixonado por
+              tecnologia e inovação. Minha missão é transformar ideias em
+              experiências únicas. Com uma abordagem focada em design intuitivo,
+              responsividade e código eficiente, estou aqui para elevar seus
+              projetos ao próximo nível. Vamos criar algo espetacular juntos?
             </Description>
 
             <span className="flex justify-center space-x-2 md:justify-start">
@@ -118,7 +119,7 @@ function Home() {
                   Linkedin
                 </a>
               </Button>
-              <Button className="space-x-1" variant={"secondary"}>
+              <Button className="space-x-1" variant={"outline"}>
                 <FaGithub />
                 <a
                   target="_blank"
@@ -131,8 +132,16 @@ function Home() {
             </span>
           </div>
 
-          <div className="flex justify-center md:w-1/2">
-            <div className="h-full w-full rounded-xl bg-black"></div>
+          <div className="flex md:w-1/2 md:justify-end">
+            <div className="rounded-full border-2 border-neutral-300 p-1">
+              <span className="flex rounded-full bg-gradient-to-t from-slate-500 to-neutral-900">
+                <img
+                  src="./profile.webp"
+                  alt="Foto perfil de Raphael Elias"
+                  className="h-72 w-72 translate-y-2 rounded-full object-cover object-center drop-shadow-2xl lg:h-[400px] lg:w-[400px]"
+                />
+              </span>
+            </div>
           </div>
         </Section>
 
