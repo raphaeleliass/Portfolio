@@ -98,7 +98,7 @@ function Home() {
           <div className="flex flex-col space-y-4 md:w-1/2">
             <Title className="text-4xl">Olá,</Title>
             <Title className="md:text-left">
-              Que tal dar vida aos seus projetos?
+              Vamos dar vida aos seus projetos?
             </Title>
             <Description className="text-center md:w-[460px] md:text-left">
               Sou Raphael Elias, desenvolvedor Front-End apaixonado por
